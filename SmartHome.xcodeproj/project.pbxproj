@@ -7,18 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A6429562C9B01D500E31B9F /* DeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6429552C9B01D500E31B9F /* DeviceView.swift */; };
+		2A6429582C9B028500E31B9F /* SafetyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6429572C9B028500E31B9F /* SafetyView.swift */; };
+		2A7926BA2C9995D400C69719 /* HomeVGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7926B92C9995D400C69719 /* HomeVGridView.swift */; };
+		2A7926BC2C99EF5F00C69719 /* HeaderTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7926BB2C99EF5F00C69719 /* HeaderTitle.swift */; };
+		2A8C08152C996C6B0043F70E /* PopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8C08142C996C6B0043F70E /* PopView.swift */; };
+		2A8C08182C996E780043F70E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8C08172C996E780043F70E /* HomeView.swift */; };
+		2A8C081C2C9975E90043F70E /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8C081B2C9975E90043F70E /* CustomAlertView.swift */; };
+		2A8C081F2C997A6B0043F70E /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8C081E2C997A6B0043F70E /* Color+Extensions.swift */; };
+		2A8C08242C997F510043F70E /* TelegrafRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2A8C08222C997F510043F70E /* TelegrafRegular.otf */; };
+		2A8C08252C997F510043F70E /* Telegraf-UltraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2A8C08212C997F510043F70E /* Telegraf-UltraLight.otf */; };
+		2A8C08262C997F510043F70E /* Telegraf-UltraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2A8C08202C997F510043F70E /* Telegraf-UltraBold.otf */; };
+		2AA6ED4A2C99F4190029281D /* ToggleBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA6ED492C99F4190029281D /* ToggleBtn.swift */; };
+		2AB67DB92C9ABAEA0037CD1B /* AirConditionerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB67DB82C9ABAEA0037CD1B /* AirConditionerView.swift */; };
 		2AE1DCDF2C98D7DC00D7289E /* SmartHomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE1DCDE2C98D7DC00D7289E /* SmartHomeApp.swift */; };
 		2AE1DCE12C98D7DC00D7289E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE1DCE02C98D7DC00D7289E /* ContentView.swift */; };
 		2AE1DCE32C98D7DE00D7289E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AE1DCE22C98D7DE00D7289E /* Assets.xcassets */; };
 		2AE1DCE62C98D7DE00D7289E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AE1DCE52C98D7DE00D7289E /* Preview Assets.xcassets */; };
+		2AE1DCEE2C990EE700D7289E /* TabModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE1DCED2C990EE700D7289E /* TabModel.swift */; };
+		2AE1DCF12C990F7300D7289E /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE1DCF02C990F7300D7289E /* CustomTabBar.swift */; };
+		2AF401DC2C9A3A4F0032678D /* MusicModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF401DB2C9A3A4F0032678D /* MusicModelView.swift */; };
+		2AF401DE2C9A3C970032678D /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF401DD2C9A3C970032678D /* File.swift */; };
+		2AF401E02C9A47C90032678D /* LinkModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF401DF2C9A47C90032678D /* LinkModelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A6429552C9B01D500E31B9F /* DeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceView.swift; sourceTree = "<group>"; };
+		2A6429572C9B028500E31B9F /* SafetyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyView.swift; sourceTree = "<group>"; };
+		2A7926B92C9995D400C69719 /* HomeVGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVGridView.swift; sourceTree = "<group>"; };
+		2A7926BB2C99EF5F00C69719 /* HeaderTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTitle.swift; sourceTree = "<group>"; };
+		2A8C08142C996C6B0043F70E /* PopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopView.swift; sourceTree = "<group>"; };
+		2A8C08172C996E780043F70E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2A8C081B2C9975E90043F70E /* CustomAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
+		2A8C081E2C997A6B0043F70E /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		2A8C08202C997F510043F70E /* Telegraf-UltraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Telegraf-UltraBold.otf"; sourceTree = "<group>"; };
+		2A8C08212C997F510043F70E /* Telegraf-UltraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Telegraf-UltraLight.otf"; sourceTree = "<group>"; };
+		2A8C08222C997F510043F70E /* TelegrafRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TelegrafRegular.otf; sourceTree = "<group>"; };
+		2A8C08272C997FB70043F70E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2AA6ED492C99F4190029281D /* ToggleBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleBtn.swift; sourceTree = "<group>"; };
+		2AB67DB82C9ABAEA0037CD1B /* AirConditionerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirConditionerView.swift; sourceTree = "<group>"; };
 		2AE1DCDB2C98D7DC00D7289E /* SmartHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AE1DCDE2C98D7DC00D7289E /* SmartHomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartHomeApp.swift; sourceTree = "<group>"; };
 		2AE1DCE02C98D7DC00D7289E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2AE1DCE22C98D7DE00D7289E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AE1DCE52C98D7DE00D7289E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2AE1DCED2C990EE700D7289E /* TabModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabModel.swift; sourceTree = "<group>"; };
+		2AE1DCF02C990F7300D7289E /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		2AF401DB2C9A3A4F0032678D /* MusicModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicModelView.swift; sourceTree = "<group>"; };
+		2AF401DD2C9A3C970032678D /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		2AF401DF2C9A47C90032678D /* LinkModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkModelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +69,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A8C08132C996C5F0043F70E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2A8C08142C996C6B0043F70E /* PopView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		2A8C08162C996DE00043F70E /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				2A8C08172C996E780043F70E /* HomeView.swift */,
+				2A6429552C9B01D500E31B9F /* DeviceView.swift */,
+				2A6429572C9B028500E31B9F /* SafetyView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		2A8C081D2C997A590043F70E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2A8C081E2C997A6B0043F70E /* Color+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2A8C08232C997F510043F70E /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2A8C08202C997F510043F70E /* Telegraf-UltraBold.otf */,
+				2A8C08212C997F510043F70E /* Telegraf-UltraLight.otf */,
+				2A8C08222C997F510043F70E /* TelegrafRegular.otf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		2AE1DCD22C98D7DC00D7289E = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +124,15 @@
 		2AE1DCDD2C98D7DC00D7289E /* SmartHome */ = {
 			isa = PBXGroup;
 			children = (
+				2A8C08272C997FB70043F70E /* Info.plist */,
+				2A8C08232C997F510043F70E /* fonts */,
+				2A8C081D2C997A590043F70E /* Extensions */,
 				2AE1DCDE2C98D7DC00D7289E /* SmartHomeApp.swift */,
+				2A8C08162C996DE00043F70E /* Screens */,
 				2AE1DCE02C98D7DC00D7289E /* ContentView.swift */,
+				2A8C08132C996C5F0043F70E /* Helpers */,
+				2AE1DCEF2C990F5D00D7289E /* Views */,
+				2AE1DCEC2C990E8100D7289E /* Model */,
 				2AE1DCE22C98D7DE00D7289E /* Assets.xcassets */,
 				2AE1DCE42C98D7DE00D7289E /* Preview Content */,
 			);
@@ -65,6 +145,30 @@
 				2AE1DCE52C98D7DE00D7289E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2AE1DCEC2C990E8100D7289E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2AE1DCED2C990EE700D7289E /* TabModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2AE1DCEF2C990F5D00D7289E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2AE1DCF02C990F7300D7289E /* CustomTabBar.swift */,
+				2A7926B92C9995D400C69719 /* HomeVGridView.swift */,
+				2AF401DB2C9A3A4F0032678D /* MusicModelView.swift */,
+				2AB67DB82C9ABAEA0037CD1B /* AirConditionerView.swift */,
+				2AF401DD2C9A3C970032678D /* File.swift */,
+				2AA6ED492C99F4190029281D /* ToggleBtn.swift */,
+				2A7926BB2C99EF5F00C69719 /* HeaderTitle.swift */,
+				2AF401DF2C9A47C90032678D /* LinkModelView.swift */,
+				2A8C081B2C9975E90043F70E /* CustomAlertView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +229,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A8C08242C997F510043F70E /* TelegrafRegular.otf in Resources */,
+				2A8C08252C997F510043F70E /* Telegraf-UltraLight.otf in Resources */,
+				2A8C08262C997F510043F70E /* Telegraf-UltraBold.otf in Resources */,
 				2AE1DCE62C98D7DE00D7289E /* Preview Assets.xcassets in Resources */,
 				2AE1DCE32C98D7DE00D7289E /* Assets.xcassets in Resources */,
 			);
@@ -137,6 +244,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AA6ED4A2C99F4190029281D /* ToggleBtn.swift in Sources */,
+				2A8C08152C996C6B0043F70E /* PopView.swift in Sources */,
+				2A8C081C2C9975E90043F70E /* CustomAlertView.swift in Sources */,
+				2AE1DCF12C990F7300D7289E /* CustomTabBar.swift in Sources */,
+				2AF401E02C9A47C90032678D /* LinkModelView.swift in Sources */,
+				2A7926BC2C99EF5F00C69719 /* HeaderTitle.swift in Sources */,
+				2A6429562C9B01D500E31B9F /* DeviceView.swift in Sources */,
+				2A8C081F2C997A6B0043F70E /* Color+Extensions.swift in Sources */,
+				2AE1DCEE2C990EE700D7289E /* TabModel.swift in Sources */,
+				2A6429582C9B028500E31B9F /* SafetyView.swift in Sources */,
+				2AB67DB92C9ABAEA0037CD1B /* AirConditionerView.swift in Sources */,
+				2A7926BA2C9995D400C69719 /* HomeVGridView.swift in Sources */,
+				2AF401DC2C9A3A4F0032678D /* MusicModelView.swift in Sources */,
+				2A8C08182C996E780043F70E /* HomeView.swift in Sources */,
+				2AF401DE2C9A3C970032678D /* File.swift in Sources */,
 				2AE1DCE12C98D7DC00D7289E /* ContentView.swift in Sources */,
 				2AE1DCDF2C98D7DC00D7289E /* SmartHomeApp.swift in Sources */,
 			);
@@ -275,6 +397,7 @@
 				DEVELOPMENT_TEAM = C3WFAPY3YY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmartHome/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +427,7 @@
 				DEVELOPMENT_TEAM = C3WFAPY3YY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmartHome/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
